@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root{
+    --off-white: #E5E7EB;
+    --minion-yellow:#FCD34D;
 
+}
 textarea{
     width: 50rem;
     height: 10rem;
     display: block;
     padding: 1rem;
     margin: 1rem;
-    background-color:#E5E7EB    ;
+    background-color: var(--off-white);
 }
 
 div{
@@ -36,7 +40,7 @@ body{
 
 .area-more{
 
-    background-color: #FCD34D;
+    background-color: var(--minion-yellow);
     padding: 1rem;
 
 
@@ -63,7 +67,7 @@ body{
 }
 
 #btn-translate{
-    background-color: #FCD34D;
+    background-color: var(--minion-yellow);
     border-radius: 0.5rem;
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
@@ -72,5 +76,8 @@ body{
 }
 
 .ow{
-    background-color: #E5E7EB;
+    background-color: var(--off-white);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
+
