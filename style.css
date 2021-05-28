@@ -15,6 +15,8 @@ textarea{
     padding: 1rem;
     background-color: var(--off-white);
     font-family: 'Montserrat', sans-serif;
+    border-radius: 3rem;
+
 
     
 }
@@ -43,6 +45,7 @@ body{
     max-width: 40rem;
     margin: auto;
     min-width: 5rem;
+    border-radius: 3rem;
 }
 
 
@@ -50,6 +53,9 @@ body{
 
     background-color: var(--minion-yellow);
     padding: 1rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+
 
 }
 
@@ -62,6 +68,7 @@ body{
 
 .text-center{
     text-align: center;
+    
 }
 
 
@@ -88,6 +95,8 @@ body{
 
 .ow{
     background-color: var(--off-white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     
 }
 
